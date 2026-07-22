@@ -87,39 +87,3 @@ A **dictionary** is an unordered (insertion-ordered in modern Python) collection
 | Tuple | ✅ Yes | ❌ No | ✅ Yes | ✅ Yes |
 | Set | ❌ No | ✅ Yes | ❌ No | ❌ No |
 | Dictionary | ✅ Yes (insertion order) | ✅ Yes | ❌ No (keys unique) | ✅ Yes (by key) |
-# Conditions in Python
-
-This notebook covers Python's conditional statements, which allow a program to make decisions and execute different blocks of code depending on whether certain conditions are `True` or `False`.
-
----
-
-## Simple `if`
-Executes a block of code only if a given condition evaluates to `True`. If the condition is `False`, the block is simply skipped and nothing happens.
-
-## `if-else`
-Provides two possible paths of execution — one block runs if the condition is `True`, and another (`else`) block runs if the condition is `False`.
-
-## `if-elif-else`
-Used when there are multiple conditions to check in sequence. Python evaluates each `elif` condition in order and executes the block for the first one that is `True`. If none of the conditions match, the `else` block runs.
-
-## Nested `if`
-An `if` statement placed inside another `if` (or `else`) block. It is used to check a secondary condition only after the first (outer) condition has already been satisfied.
-
-## Logical Operators
-Operators (`and`, `or`, `not`) used to combine multiple conditions into a single expression, allowing a decision to be based on more than one criterion at the same time.
-
-## Shorthand / Ternary Operator
-A one-line way of writing simple `if-else` statements, expressed in the form:
-`value_if_true if condition else value_if_false`.
-
-## User-Input Based Conditions
-Programs that take input from the user at runtime and apply conditional logic to that input to produce an appropriate output.
-
-## Extra / Special Applications
-Real-world examples that apply conditional logic together, including:
-- **Leap Year check** – determining whether a year is a leap year using divisibility rules.
-- **Century Year check** – checking whether a year is an exact multiple of 100.
-- **Character type check** – identifying whether a character is uppercase, lowercase, a digit, or a special symbol.
-- **Electricity Bill calculation** – applying different billing rates based on unit-consumption slabs.
-- **Simple Calculator** – performing arithmetic operations based on an operator entered by the user.
-- **Result/Grading system** – calculating total marks, percentage, and grade from multiple subject scores using conditions.
