@@ -87,3 +87,75 @@ A **dictionary** is an unordered (insertion-ordered in modern Python) collection
 | Tuple | ✅ Yes | ❌ No | ✅ Yes | ✅ Yes |
 | Set | ❌ No | ✅ Yes | ❌ No | ❌ No |
 | Dictionary | ✅ Yes (insertion order) | ✅ Yes | ❌ No (keys unique) | ✅ Yes (by key) |
+# Python Data Structures & Conditional Statements
+
+This notebook covers Python's core data structures (List, Tuple, Set, Dictionary) along with conditional statements (if, if-else, if-elif-else, nested if, logical operators, and ternary expressions).
+
+---
+
+## 📌 List
+A **list** is an ordered, mutable collection of items that can hold elements of different data types. Lists allow duplicate values and preserve insertion order.
+
+**Methods covered:** indexing, `len()`, `append()`, `insert()`, `extend()`, `remove()`, `pop()`, `sort()`, `sorted()`, `reverse()`, `index()`, `count()`.
+
+## 📌 Tuple
+A **tuple** is an ordered, **immutable** collection of items. Once created, its elements cannot be changed. Tuples allow duplicates and can store mixed data types.
+
+**Concepts covered:** creating tuples, single-element tuples, indexing, slicing, reversing via slicing, `count()`, `index()`, and conversion between tuples and lists.
+
+## 📌 Set
+A **set** is an unordered collection of **unique** elements — duplicates are automatically removed. Sets do not support indexing.
+
+**Methods covered:** creating sets, `add()`, `update()`, `remove()`, `discard()`, `pop()`, `len()`, `union()`, `intersection()`, `difference()`, `symmetric_difference()`.
+
+## 📌 Dictionary
+A **dictionary** is a collection of **key-value pairs**, where each key is unique and used to access its associated value.
+
+**Methods covered:** creating dictionaries, accessing values, adding/updating key-value pairs, `pop()`, `del`, `len()`, `in` keyword, `get()`, `keys()`, `values()`, `items()`.
+
+---
+
+## 📌 Conditions in Python
+
+Conditional statements allow a program to make decisions and execute different blocks of code based on whether certain conditions are `True` or `False`.
+
+### Simple `if`
+Executes a block of code only if a given condition evaluates to `True`. If the condition is `False`, the block is simply skipped.
+
+### `if-else`
+Provides two paths of execution — one block runs if the condition is `True`, and another (`else`) block runs if it is `False`.
+
+### `if-elif-else`
+Used when there are multiple conditions to check in sequence. Python evaluates each condition (`elif`) in order and executes the first block whose condition is `True`; if none match, the `else` block runs.
+
+### Nested `if`
+An `if` statement placed inside another `if` (or `else`) block, used to check a secondary condition only after the first condition has already been satisfied.
+
+### Logical Operators
+Operators (`and`, `or`, `not`) used to combine multiple conditions into a single expression, allowing decisions based on more than one criterion at a time.
+
+### Shorthand / Ternary Operator
+A one-line way of writing simple `if-else` statements, expressed as: `value_if_true if condition else value_if_false`.
+
+### User-Input Based Conditions
+Programs that take input from the user at runtime and apply conditional logic to that input to determine the output.
+
+### Extra / Special Applications
+Real-world use cases of conditional logic, such as:
+- **Leap Year check** – determining whether a year is a leap year based on divisibility rules.
+- **Century Year check** – checking if a year is a multiple of 100.
+- **Character type check** – identifying whether a character is uppercase, lowercase, a digit, or a special symbol.
+- **Electricity Bill calculation** – applying different billing rates based on unit-consumption slabs.
+- **Simple Calculator** – performing arithmetic operations based on an operator chosen by the user.
+- **Grading/Result systems** – calculating totals, percentages, and grades from multiple subject marks.
+
+---
+
+## Summary Table (Data Structures)
+
+| Data Structure | Ordered | Mutable | Duplicates Allowed | Indexed |
+|---|---|---|---|---|
+| List | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
+| Tuple | ✅ Yes | ❌ No | ✅ Yes | ✅ Yes |
+| Set | ❌ No | ✅ Yes | ❌ No | ❌ No |
+| Dictionary | ✅ Yes (insertion order) | ✅ Yes | ❌ No (keys unique) | ✅ Yes (by key) |
